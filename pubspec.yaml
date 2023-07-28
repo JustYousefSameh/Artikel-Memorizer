@@ -1,0 +1,44 @@
+name: pomodoro_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_sequence_animation:
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  google_fonts: ^3.0.1
+  sqflite: ^2.2.3
+  auto_size_text: ^3.0.0
+  flutter_bloc: ^8.1.1
+  flutter_launcher_icons: ^0.11.0
+  shared_preferences: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/icons/Logo.png"
+
+flutter:
+
+
+  fonts:
+  - family: Roboto
+    fonts:
+    - asset: fonts/Roboto-Regular.ttf
+  - family: Lato
+    fonts:
+    - asset: fonts/Lato-Regular.ttf
+  uses-material-design: true
